@@ -1,0 +1,10 @@
+pyproject.toml
+beings/__init__.py
+beings/conexao.py
+beings/person.py
+testes.egg-info/PKG-INFO
+testes.egg-info/SOURCES.txt
+testes.egg-info/dependency_links.txt
+testes.egg-info/top_level.txt
+tests/test_conexao.py
+tests/test_person.py
