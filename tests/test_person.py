@@ -8,11 +8,9 @@ def person():
 
 
 def test_init(person: Person):
-
     assert person.name == "John Doe"
     assert person.age == 30
     assert person.jobs == ["Engineer"]
-
 
 def test_forename(person: Person):
     assert person.forename == "John"
