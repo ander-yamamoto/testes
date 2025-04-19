@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 # beings/conexao.py
 class ConexaoSimulada:
     def __init__(self):
