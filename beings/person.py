@@ -1,12 +1,8 @@
-from __future__ import annotations
-
-
-
-from typing import Collection
+from typing import Optional, Collection
 
 class Person:
     def __init__(
-            self, name: str, age: int, *, jobs: Collection[str] | None = None,
+            self, name: str, age: int, *, jobs: Optional[Collection[str]] = None,
     ) -> None:
         self.name = name
         self.age = age
